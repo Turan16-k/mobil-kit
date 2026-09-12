@@ -1,0 +1,200 @@
+Apple'ın en çok reddettiği 20 madde
+Apple'ın en çok reddettiği yirmi madde. Hiçbiri kod hatası değil.
+
+20 madde
+okuma 7 dk
+güncellendi 5 Eylül 2026
+Liste
+
+01
+hesap silme yok
+Hesap silme yolu yok.
+
+yanlış
+destek mailine yaz
+doğru
+ayarlar → hesabı sil
+02
+paywall'da link yok
+Paywall'da koşullar linki yok.
+
+yanlış
+sadece fiyat
+doğru
+EULA + gizlilik linki
+03
+restore yok
+Satın alımları geri yükle butonu yok.
+
+yanlış
+buton yok
+doğru
+paywall'da 'geri yükle'
+04
+fiyat yazmıyor
+Fiyat ve süre yazmıyor.
+
+yanlış
+'Premium'a geç'
+doğru
+₺X / ay · otomatik yenilenir
+05
+yer tutucu içerik
+Yer tutucu içerik kalmış.
+
+yanlış
+yakında...
+doğru
+her ekran dolu
+06
+demo hesap yok
+Demo hesap bırakmamışsın.
+
+yanlış
+boş not alanı
+doğru
+kullanıcı + şifre + adım
+07
+gizli özellik
+İncelemede kapalı gizli özellik.
+
+yanlış
+uzaktan açılan mod
+doğru
+gördüğü her şey gerçek
+08
+web görünümü
+Sadece siteyi açan uygulama.
+
+yanlış
+tek WebView
+doğru
+yerel özellik + değer
+09
+izin gerekçesi yok
+İzin gerekçesi yazmıyor.
+
+yanlış
+'kamera erişimi'
+doğru
+'fişini taramak için'
+10
+takip izni yok
+Takip izni ekranı yok.
+
+yanlış
+sessizce IDFA
+doğru
+ATT ekranı
+11
+gizlilik etiketi yanlış
+Gizlilik etiketi eksik.
+
+yanlış
+'veri toplamıyoruz'
+doğru
+SDK'ların da beyanda
+12
+dış ödeme linki
+Dış ödeme linki.
+
+yanlış
+'siteden ucuza al'
+doğru
+uygulama içi satın alma
+13
+çocuk kategorisi
+Çocuk kategorisinde izleme SDK'sı.
+
+yanlış
+analytics SDK
+doğru
+sıfır üçüncü parti izleme
+14
+kullanıcı içeriği
+Şikâyet ve engelleme yok.
+
+yanlış
+sadece paylaş
+doğru
+bildir + engelle + 24 saat
+15
+başkasının markası
+Başkasının markası görselde.
+
+yanlış
+tanınmış logo
+doğru
+kendi varlıkların
+16
+sağlık iddiası
+Kanıtsız sağlık iddiası.
+
+yanlış
+'stresi tedavi eder'
+doğru
+'takip etmene yardım eder'
+17
+ekran görüntüsü yanlış
+Ekran görüntüsü uygulamada yok.
+
+yanlış
+konsept tasarım
+doğru
+gerçek arayüz
+18
+çöküyor
+İnceleyenin cihazında çöküyor.
+
+yanlış
+eski iOS'ta çöküyor
+doğru
+iki sürüm geriye test
+19
+minimum işlevsellik
+Bir hafta sonunda yapılmış gibi.
+
+yanlış
+tek ekran
+doğru
+gerçek bir iş yapıyor
+20
+cevap yazmıyorsun
+Rete cevap yazmıyorsun.
+
+yanlış
+sessizce tekrar gönder
+doğru
+Resolution Center'da açıkla
+Hazır komut
+
+Bu listeyi olduğu gibi Claude'a, Cursor'a ya da kullandığın araca yapıştır. Tek tek kontrol edip düzeltmeyi uygular.
+
+kontrol komutu
+kopyala
+↗
+Aşağıdaki listeyi uygulamamda tek tek kontrol et. Her madde için:
+1) durumu söyle (var / yok / emin değilim), 2) varsa nerede olduğunu göster,
+3) düzeltmeyi uygula. Tahmin etme, dosyalara bak.
+
+1. hesap silme yok — Hesap silme yolu yok.
+2. paywall'da link yok — Paywall'da koşullar linki yok.
+3. restore yok — Satın alımları geri yükle butonu yok.
+4. fiyat yazmıyor — Fiyat ve süre yazmıyor.
+5. yer tutucu içerik — Yer tutucu içerik kalmış.
+6. demo hesap yok — Demo hesap bırakmamışsın.
+7. gizli özellik — İncelemede kapalı gizli özellik.
+8. web görünümü — Sadece siteyi açan uygulama.
+9. izin gerekçesi yok — İzin gerekçesi yazmıyor.
+10. takip izni yok — Takip izni ekranı yok.
+11. gizlilik etiketi yanlış — Gizlilik etiketi eksik.
+12. dış ödeme linki — Dış ödeme linki.
+13. çocuk kategorisi — Çocuk kategorisinde izleme SDK'sı.
+14. kullanıcı içeriği — Şikâyet ve engelleme yok.
+15. başkasının markası — Başkasının markası görselde.
+16. sağlık iddiası — Kanıtsız sağlık iddiası.
+17. ekran görüntüsü yanlış — Ekran görüntüsü uygulamada yok.
+18. çöküyor — İnceleyenin cihazında çöküyor.
+19. minimum işlevsellik — Bir hafta sonunda yapılmış gibi.
+20. cevap yazmıyorsun — Rete cevap yazmıyorsun.
+Uyarı: yapay zekâ "hepsini düzelttim" derse inanma. Her maddeyi kendi telefonunda ya da panelinde tekrar kontrol et — bu listenin tamamı gözle doğrulanabilir.
