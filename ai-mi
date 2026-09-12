@@ -1,0 +1,198 @@
+Uygulamanı yapay zekâya yaptırdığın 20 yerden belli
+20 madde
+okuma 7 dk
+güncellendi 5 Eylül 2026
+Liste
+
+01
+boş ekran metni yok
+Boş ekranda hiçbir metin yok.
+
+yanlış
+beyaz ekran
+doğru
+'henüz yok — ilk kaydını ekle'
+02
+hepsi aynı mavi
+Bütün butonlar aynı renk.
+
+yanlış
+5 mavi buton
+doğru
+tek vurgulu, gerisi sessiz
+03
+bir sorun oluştu
+Her hata «bir sorun oluştu».
+
+yanlış
+bir sorun oluştu
+doğru
+'internet yok — tekrar dene'
+04
+sonsuz spinner
+Sonsuza kadar dönen çember.
+
+yanlış
+zaman aşımı yok
+doğru
+10 sn sonra hata + buton
+05
+klavye örtüyor
+Klavye kutuyu örtüyor.
+
+yanlış
+kutu görünmüyor
+doğru
+kaydırmalı görünüm
+06
+geri tuşu ölü
+Geri tuşu ölü.
+
+yanlış
+tahmin edilemez
+doğru
+her ekranda beklenen
+07
+karanlık modda beyaz
+Karanlık modda beyaz patlıyor.
+
+yanlış
+sabit beyaz
+doğru
+iki temada okunur
+08
+dokunma alanı küçük
+Dokunma alanı fare için.
+
+yanlış
+28 piksel
+doğru
+en az 44 piksel
+09
+çentik altında yazı
+Yazı çentiğin altında.
+
+yanlış
+güvenli alan yok
+doğru
+SafeArea her ekranda
+10
+lorem ipsum
+Bir yerde hâlâ yer tutucu metin.
+
+yanlış
+lorem ipsum
+doğru
+her ekran dolu
+11
+tek dil
+Cihaz Türkçe, uygulama İngilizce.
+
+yanlış
+sabit dil
+doğru
+cihaz diline göre
+12
+tarih formatı
+Tarih Amerikan formatında.
+
+yanlış
+08/29/2026
+doğru
+29 Ağustos 2026
+13
+onay yok
+Silme sormadan siliyor.
+
+yanlış
+tek dokunuş = kayıp
+doğru
+onay veya geri al
+14
+titreşim yok
+Hiçbir dokunuşta titreşim yok.
+
+yanlış
+sessiz arayüz
+doğru
+kritik eylemde haptik
+15
+animasyon yok
+Ekranlar ani sıçrıyor.
+
+yanlış
+ani sıçrama
+doğru
+200-300 ms geçiş
+16
+izin gerekçesi
+İzin gerekçesi boş.
+
+yanlış
+'kamera erişimi'
+doğru
+'fişini taramak için'
+17
+altı izin peş peşe
+Açılışta altı izin.
+
+yanlış
+açılışta 6 izin
+doğru
+eylem anında 1 izin
+18
+hesap silme yok
+Hesap silme yolu yok.
+
+yanlış
+mail atsın
+doğru
+ayarlarda tek dokunuş
+19
+ikon varsayılan
+İkon şablondan çıkmış.
+
+yanlış
+gradient + harf
+doğru
+tek net sembol
+20
+kimse test etmedi
+Uygulamayı kimse gerçekten açmamış.
+
+yanlış
+'çalışıyor'
+doğru
+birine 5 dakika verdir
+Hazır komut
+
+Bu listeyi olduğu gibi Claude'a, Cursor'a ya da kullandığın araca yapıştır. Tek tek kontrol edip düzeltmeyi uygular.
+
+kontrol komutu
+kopyala
+↗
+Aşağıdaki listeyi uygulamamda tek tek kontrol et. Her madde için:
+1) durumu söyle (var / yok / emin değilim), 2) varsa nerede olduğunu göster,
+3) düzeltmeyi uygula. Tahmin etme, dosyalara bak.
+
+1. boş ekran metni yok — Boş ekranda hiçbir metin yok.
+2. hepsi aynı mavi — Bütün butonlar aynı renk.
+3. bir sorun oluştu — Her hata «bir sorun oluştu».
+4. sonsuz spinner — Sonsuza kadar dönen çember.
+5. klavye örtüyor — Klavye kutuyu örtüyor.
+6. geri tuşu ölü — Geri tuşu ölü.
+7. karanlık modda beyaz — Karanlık modda beyaz patlıyor.
+8. dokunma alanı küçük — Dokunma alanı fare için.
+9. çentik altında yazı — Yazı çentiğin altında.
+10. lorem ipsum — Bir yerde hâlâ yer tutucu metin.
+11. tek dil — Cihaz Türkçe, uygulama İngilizce.
+12. tarih formatı — Tarih Amerikan formatında.
+13. onay yok — Silme sormadan siliyor.
+14. titreşim yok — Hiçbir dokunuşta titreşim yok.
+15. animasyon yok — Ekranlar ani sıçrıyor.
+16. izin gerekçesi — İzin gerekçesi boş.
+17. altı izin peş peşe — Açılışta altı izin.
+18. hesap silme yok — Hesap silme yolu yok.
+19. ikon varsayılan — İkon şablondan çıkmış.
+20. kimse test etmedi — Uygulamayı kimse gerçekten açmamış.
+Uyarı: yapay zekâ "hepsini düzelttim" derse inanma. Her maddeyi kendi telefonunda ya da panelinde tekrar kontrol et — bu listenin tamamı gözle doğrulanabilir.
