@@ -1,0 +1,200 @@
+Apple'ın bedava verdiği ama kimsenin almadığı 20 şey
+Apple'ın bedava verdiği ama kimsenin almadığı yirmi şey.
+
+20 madde
+okuma 7 dk
+güncellendi 5 Eylül 2026
+Liste
+
+01
+70 özel sayfa
+Yetmiş özel ürün sayfası.
+
+yanlış
+tek sayfa
+doğru
+70 hak
+02
+35 A/B testi
+Ürün sayfası A/B testi.
+
+yanlış
+tahminle seçiyorsun
+doğru
+3 varyant canlı test
+03
+editöre başvuru
+Editöre aday gösterme formu.
+
+yanlış
+hiç başvurmadın
+doğru
+her sürümde başvur
+04
+10.000 test kullanıcısı
+On bin kişilik TestFlight.
+
+yanlış
+kimseye vermedin
+doğru
+link her yerde
+05
+keyword popülerliği
+Ücretsiz keyword popülerliği.
+
+yanlış
+ayda 80 dolar araç
+doğru
+resmî API, bedava
+06
+gösterim payı
+Rakibe karşı gösterim payı.
+
+yanlış
+körsün
+doğru
+kelime başına pay
+07
+100$ reklam kredisi
+Yüz dolar reklam kredisi.
+
+yanlış
+talep etmedin
+doğru
+kampanya kurunca gelir
+08
+kaynak raporu
+İndirmenin kaynak raporu.
+
+yanlış
+hiç açmadın
+doğru
+web, arama, öneri kırılımı
+09
+tutunma eğrisi
+Gün bazında tutunma eğrisi.
+
+yanlış
+tahmin
+doğru
+gerçek eğri
+10
+çökme raporu
+Çökme raporu ve yığın izi.
+
+yanlış
+kullanıcı şikâyeti bekliyorsun
+doğru
+panelde hazır
+11
+açılış süresi
+Gerçek cihazlarda açılış süresi.
+
+yanlış
+kendi telefonunda test
+doğru
+binlerce cihazın medyanı
+12
+pil ve bellek
+Pil, bellek ve disk raporu.
+
+yanlış
+bilmiyorsun
+doğru
+sürüm sürüm karşılaştır
+13
+sunucu bildirimleri
+Abonelik sunucu bildirimleri.
+
+yanlış
+kurmadın
+doğru
+ASSN v2 canlı
+14
+promosyon kodu
+İki yüz elli promosyon kodu.
+
+yanlış
+hiç üretmedin
+doğru
+250 kod hazır
+15
+teklif kodu
+Abonelik teklif kodu.
+
+yanlış
+fiyat sabit
+doğru
+kampanyaya özel kod
+16
+uygulama içi olay
+Mağaza sayfasında etkinlik.
+
+yanlış
+kullanmadın
+doğru
+her büyük sürümde
+17
+özel indirme linki
+Kampanya bağlantısı.
+
+yanlış
+tek link her yerde
+doğru
+kanal başına ayrı
+18
+yoruma cevap
+Yoruma panelden cevap.
+
+yanlış
+sessizlik
+doğru
+her olumsuza cevap
+19
+aile paylaşımı
+Aile paylaşımı.
+
+yanlış
+kapalı
+doğru
+tek anahtarla açık
+20
+Xcode Cloud
+Ayda yirmi beş saat ücretsiz derleme.
+
+yanlış
+elle arşiv
+doğru
+otomatik sürüm
+Hazır komut
+
+Bu listeyi olduğu gibi Claude'a, Cursor'a ya da kullandığın araca yapıştır. Tek tek kontrol edip düzeltmeyi uygular.
+
+kontrol komutu
+kopyala
+↗
+Aşağıdaki listeyi uygulamamda tek tek kontrol et. Her madde için:
+1) durumu söyle (var / yok / emin değilim), 2) varsa nerede olduğunu göster,
+3) düzeltmeyi uygula. Tahmin etme, dosyalara bak.
+
+1. 70 özel sayfa — Yetmiş özel ürün sayfası.
+2. 35 A/B testi — Ürün sayfası A/B testi.
+3. editöre başvuru — Editöre aday gösterme formu.
+4. 10.000 test kullanıcısı — On bin kişilik TestFlight.
+5. keyword popülerliği — Ücretsiz keyword popülerliği.
+6. gösterim payı — Rakibe karşı gösterim payı.
+7. 100$ reklam kredisi — Yüz dolar reklam kredisi.
+8. kaynak raporu — İndirmenin kaynak raporu.
+9. tutunma eğrisi — Gün bazında tutunma eğrisi.
+10. çökme raporu — Çökme raporu ve yığın izi.
+11. açılış süresi — Gerçek cihazlarda açılış süresi.
+12. pil ve bellek — Pil, bellek ve disk raporu.
+13. sunucu bildirimleri — Abonelik sunucu bildirimleri.
+14. promosyon kodu — İki yüz elli promosyon kodu.
+15. teklif kodu — Abonelik teklif kodu.
+16. uygulama içi olay — Mağaza sayfasında etkinlik.
+17. özel indirme linki — Kampanya bağlantısı.
+18. yoruma cevap — Yoruma panelden cevap.
+19. aile paylaşımı — Aile paylaşımı.
+20. Xcode Cloud — Ayda yirmi beş saat ücretsiz derleme.
+Uyarı: yapay zekâ "hepsini düzelttim" derse inanma. Her maddeyi kendi telefonunda ya da panelinde tekrar kontrol et — bu listenin tamamı gözle doğrulanabilir.
