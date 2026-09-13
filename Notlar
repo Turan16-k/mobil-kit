@@ -1,0 +1,31 @@
+NevGenç iOS Dağıtım & App Store Connect Yükleme Raporu
+Tarih: 13 Eylül 2026
+Uygulama Adı: NevGenç
+Hedef Platform: iOS / App Store Connect
+Paket Tanımlayıcısı (Bundle ID): com.nevgenc.app
+Dahili Takip Kodu (SKU): ato-nevgenc
+Derleme Sürümü: 1.0.25 (Build 26)
+Dağıtım Durumu: Uploaded to Apple (Başarılı)
+1. Sürecin Özeti ve Başlangıç Koşulları
+NevGenç Flutter mobil uygulamasının fiziksel bir iPhone cihazı olmadan doğrudan Xcode ve macOS derleme hattı üzerinden App Store Connect'e yüklenmesi hedeflenmiştir. Süreç boyunca imzalama (code signing), profil yetkilendirmesi, bundle çakışmaları ve App Store Connect meta veri senkronizasyonu aşamaları yönetilmiştir.
+2. Karşılaşılan Problemler ve Uygulanan Çözümler
+| # | Karşılaşılan Hata / Durum | Temel Neden | Uygulanan Çözüm |
+|---|---|---|---|
+| 1 | Signing for "Runner" requires a development team | Otomatik imzalama kapatılıp açıldığında Xcode Team alanının boşalması (None). | Runner hedefinin Signing & Capabilities sekmesinde geliştirici hesabı tekrar takıma tanımlandı ve Xcode Managed Profile aktifleştirildi. |
+| 2 | Analyze Succeeded sonrası derlemenin Organizer'da bulunamaması | Menüden paket derlemesi yerine yalnızca statik kod analizinin (Analyze) çalıştırılmış olması. | Üst menüden Product > Archive komutu tetiklenerek arm64 mimarisine uygun .xcarchive paketi başarıyla üretildi. |
+| 3 | App Record Creation Error (SKU / Name already in use) | Xcode'un web üzerindeki mevcut kaydı tanımayıp yeni bir uygulama kaydı (creating an app record) açmaya çalışması. | App Store Connect web panelindeki mevcut taslakta Bundle ID seçiminin değiştirildiği ancak kaydedilmediği (Edited uyarısı) tespit edildi; panel üzerinden Save yapılarak kayıt resmileştirildi. |
+| 4 | İsim & SKU Senkronizasyonu | Xcode sihirbazının varsayılan olarak Runner adı ve rastgele SKU ile ilerlemeye çalışması. | Sihirbazdaki alanlar web panelindeki NevGenç ve ato-nevgenc değerleriyle harfi harfine eşitlendi. |
+3. Yapılan Teknik Yapılandırmalar
+ * Hedef & Cihaz: Fiziksel cihaz kısıtlaması, hedef platform olarak Any iOS Device (arm64) seçilerek aşıldı.
+ * İmzalama: Automatically manage signing aktif tutularak Apple Geliştirici sertifikaları ve dağıtım profilleri Apple sunucularıyla dinamik olarak eşleştirildi.
+ * İzinler (Privacy Keys): Info.plist üzerinde kamera ve konum kullanım gerekçeleri (Türkçe açıklamalarıyla) App Store inceleme kurallarına uygun biçimde tanımlandı.
+ * Dağıtım Kanalı: Xcode Organizer üzerinden App Store Connect > Upload akışı kullanılarak derleme doğrudan Apple sunucu kuyruğuna iletildi.
+4. Güncel Durum ve Sonraki Adımlar
+ * TestFlight / İşleme Aşaması (Processing):
+   * Derleme Apple sunucularına ulaştı (Uploaded to Apple).
+   * Apple'ın otomatik kötü amaçlı yazılım, kütüphane ve imza kontrolü (ortalama 10–20 dakika) tamamlandığında derleme TestFlight sekmesinde yeşil/aktif duruma geçecektir.
+ * İhracat Uyumluluğu (Export Compliance):
+   * Derleme işlendiğinde çıkacak şifreleme/uyumluluk sorusuna, standart HTTPS/ağ kütüphaneleri kullanıldığı için muafiyet onayı verilerek TestFlight dağıtımı açılacaktır.
+ * App Store Listeleme & İncelemeye Gönderme:
+   * App Store sekmesindeki sürüm sayfasına bu derleme (1.0.25 - 26) eklenecek.
+   * 1024x1024 mağaza ikonu, ekran görüntüleri, açıklama metinleri ve gizlilik politikası bağlantısı tamamlanarak uygulama resmi Apple App Store incelemesine sunulacaktır.
